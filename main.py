@@ -20,7 +20,7 @@ def main():
 
         if scelta == "1":
             nuovo_responsabile = input("Inserisci il nuovo responsabile: ")
-            deposito= DepositoStrumenti("Deposito Strumenti Civico",f"{nuovo_responsabile}")
+            DepositoStrumenti.responsabile=nuovo_responsabile
 
         elif scelta == "2":
             while True:
